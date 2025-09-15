@@ -1,0 +1,8 @@
+@node("Person", {
+  "Name": "Budi",
+  "Age": 21,
+  "Address": @node("Address", {
+    "City": "Bandung",
+    "Code": 40123
+  })
+})
