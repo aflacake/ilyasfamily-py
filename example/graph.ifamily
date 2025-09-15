@@ -1,0 +1,12 @@
+@node("Graph", {
+  "directed": true,
+  "Nodes": [
+    @node("Node", { "id": "A", "label": "Start" }),
+    @node("Node", { "id": "B", "label": "End" }),
+    @node("Node", { "id": "C", "label": "Finish" })
+  ],
+  "Edges": [
+    @node("Edge", { "from": "A", "to": "B", "weight": 5 }),
+    @node("Edge", { "from": "B", "to": "C", "weight": 3 })
+  ]
+})
