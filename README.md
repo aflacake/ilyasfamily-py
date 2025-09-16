@@ -21,5 +21,20 @@ loaded = load_file("person_family")
 print(loaded)
 ```
 
+### Menguji
+Uji dengan **pytest** atau jalankan manual. Namun kali ini dengan pytest karena untuk uji coba cepat. Anda bisa mengedit kode `test/test.py` untuk uji coba manual.
+1. Instal pytest
+   ```
+   pip install pytest
+   ```
+2. Jalankan dari root
+   ```
+   pytest
+   ```
+   atau jalur spesifik:
+   ```
+   pytest tests/test.py -v
+   ```
+
 ## Lisensi
 [Apache-2.0](https://github.com/aflacake/ilyasfamily-py/?tab=Apache-2.0-1-ov-file)
