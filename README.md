@@ -36,5 +36,16 @@ Uji dengan **pytest** atau jalankan manual. Namun kali ini dengan pytest karena 
    pytest tests/test.py -v
    ```
 
+Apa bila pytest tidak menemukan package ilyasfamily karena struktur repositori memakai `src/` layout.
+
+Instal lokal dahulu
+```
+pip install -e .
+```
+Lalu coba lagi
+```
+pytest tests/test.py -v
+```
+
 ## Lisensi
 [Apache-2.0](https://github.com/aflacake/ilyasfamily-py/?tab=Apache-2.0-1-ov-file)
