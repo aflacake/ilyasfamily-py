@@ -7,7 +7,7 @@ Repositori ini berisi **implementasi Python** dari spesifikasi [IlyasFamily](htt
 
 ## Instalasi
 ```bash
-pip install ilyasfamily
+pip install ilyasfamily-py
 ```
 
 ## Contoh Pemakaiaan
